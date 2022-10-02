@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .main-container {
   display: flex;
@@ -44,10 +45,4 @@ p {
   color: hsl(220, 15%, 55%);
   font-weight: 400;
   padding: 0 10px;
-}
-
-@media (max-width: 375px) {
-  .main-container {
-    flex-grow: 100%;
-  }
 }
