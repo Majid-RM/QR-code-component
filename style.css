@@ -45,10 +45,3 @@ p {
   font-weight: 400;
   padding: 0 10px;
 }
-
-@media (max-width: 375px) {
-  body {
-    height: 100vh;
-    overflow: hidden;
-  }
-}
